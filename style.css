@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(img/patt.png);
+
+
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+
+}
+
+.row {
+    display: flex;
+    width: 1200px;
+    align-items: center;
+    height: 50px;
+}
+
+.col-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+
+
+}
+
+.col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.col-6 ul {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.col-6 a {
+    font-size: 21px;
+    text-decoration: none;
+    color: #2c71b8;
+    /* width: 143px; */
+}
+
+.col-6 li {
+    width: 150px;
+    border-right: 1px solid #2c71b8;
+    text-align: center;
+    padding: 17px 0px 17px 0px;
+}
+
+.col-3 input {
+    height: 40px;
+    width: 200px;
+    border: 1px solid #2c71b8;
+    position: relative;
+}
+
+.search {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.search-btn {
+    margin-top: 5px;
+    margin-right: 80px;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background-color: #2c71b8;
+    border: none;
+}
+
+.cart {
+    height: 40px;
+    width: 40px;
+    margin-left: 35px;
+    border: none;
+    background-color: #ffffff;
+}
+
+.hover-menu2 {
+    display: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.hover-menu {
+    display: none;
+    background-color: #2c71b8;
+    position: absolute;
+    top: 77px;
+}
+
+.hover-menu2 li {
+    color: #ffffff;
+    width: 300px;
+    text-align: left;
+    padding-left: 25px;
+    right: 20px;
+}
+
+.main-nav li:hover {
+    background-color: #2c71b8;
+    color: #ffffff;
+}
+
+.main-nav li:hover a {
+    color: #ffffff;
+}
+
+.prod-hover:hover .hover-menu {
+    display: block;
+}
+
+.hover-menu2 li:hover {
+    background-color: #ffffff;
+    color: #2c71b8;
+}
+.hover-menu2 li:hover a {
+    color: #2c71b8;
+}
+
+.banner{
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.navbanner{
+    height: 400px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+.banner a{
+    font-size: 50px;
+    text-decoration: none;
+    color:#ffffff;
+}
